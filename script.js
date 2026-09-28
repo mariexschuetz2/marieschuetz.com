@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Project descriptions - customize these texts for each project
   const projectDescriptions = {
-    "FASHION SHOW 2025": "VISUAL IDENTITY PROPOSAL FOR THE SHOW OF FASHION DESIGN CLASS OF THE UNIVERSITY OF APPLIED ARTS VIENNA",
+    "MODEKLASSE SHOW 2025": "VISUAL IDENTITY PROPOSAL FOR THE SHOW OF FASHION DESIGN CLASS OF THE UNIVERSITY OF APPLIED ARTS VIENNA",
     "TRUTH": "BRANDING FOR ‘DESIGN AND NARRATIVE MEDIA’S 2025 EXHIBITION\n‘TRUTH: THE LIES WE LIVE BY’",
     "VINYLS FOR BEXXX": "VINYL COVERS FOR SINGER AND SONGWRITER BEXXX",
     "PROCESS JOURNAL": "BOOK DOCUMENTING THE DEVELOPMENT OF THE COLLABORATIVE EXHIBITION PROJECT “COMMON SOIL”",
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Project detail page descriptions (shown when project is opened)
   // If not specified, the main description will be used
   const projectDetailDescriptions = {
-    "FASHION SHOW 2025": "THIS PROJECT – LIKE A GOOD PAIR OF BLACK CROCS – IS FUN, VERSATILE\nAND ALREADY A CLASSIC. THE PROPOSAL SADLY DIDN’T WIN ANGEWANDTES NEXT\nTOP MODEL, BUT IF YOU NEED 147 DIFFERENT DESIGN APPLICATIONS IN FORM OF MOCKUPS, HIT ME UP.",
+    "MODEKLASSE SHOW 2025": "THIS PROJECT – LIKE A GOOD PAIR OF BLACK CROCS – IS FUN, VERSATILE\nAND ALREADY A CLASSIC. THE PROPOSAL SADLY DIDN’T WIN ANGEWANDTES NEXT\nTOP MODEL, BUT IF YOU NEED 147 DIFFERENT DESIGN APPLICATIONS IN FORM OF MOCKUPS, HIT ME UP.",
     "TRUTH": "REAL EYES REALIZE REAL LIES.\nTHIS LOGO IS DESIGNED TO TURN HEADS. (TURN YOUR HEAD ;) (ITS AN AMBIGRAM.)",
     "VINYLS FOR BEXXX": "I LOVE MUSIC <3",
     "PROCESS JOURNAL": "EVEN THOUGH YOU WONT FIND ANY ‘DEAR DIARIES’ IN THIS JOURNAL, THIS BOOK STILL VERY MUCH COMES FROM THE HEART.\n IT'S A LONDON-VIENNA COPRODUCTION. AS IN: I’M FROM VIENNA BUT WORKED ON IT IN LONDON.",
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Project background images - add your image paths here
   const projectImages = {
-    "FASHION SHOW 2025": "images/fashion-show-runway.png",
+    "MODEKLASSE SHOW 2025": "images/fashion-show-runway.png",
     "TRUTH": "images/truth_background.jpg",
     "VINYLS FOR BEXXX": "images/vinyls_background.jpg",
     "PROCESS JOURNAL": "images/PJ_background2.jpg",
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Add images for each project's two-column layout
   // Each image needs: src (path), size (40-100 for width percentage), alt (description)
   const projectDetailImages = {
-    "FASHION SHOW 2025": {
+    "MODEKLASSE SHOW 2025": {
       leftColumn: [
          { src: {
         sequence: true,
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // hangingCircles: array of circle indices that should hang from circle (text reads upside down from top)
   // textParts: array of text elements with text and position on the circle
   const innerCirclesConfig = {
-    "FASHION SHOW 2025": {
+    "MODEKLASSE SHOW 2025": {
       circleRadii: [0.935, 0.885, 0.95, 0.9],
       hangingCircles: [2, 3],
       textParts: [

@@ -114,13 +114,24 @@ body{
   text-decoration:none;
   transition: opacity 0.3s ease-in-out;
   opacity:0;
-  pointer-events:none;
+  pointer-events:auto;
+  cursor:pointer;
 }
 .project-arrow svg{
   display:block;
-  width:15px;
+  width:21px;
   height:24px;
-  pointer-events:none;
+  pointer-events:auto;
+}
+
+/* Neu: Linienbreite für Arrow-Elemente */
+.project-arrow svg path,
+.project-arrow svg line,
+.project-arrow svg polyline,
+.project-arrow svg polygon {
+  stroke: currentColor;     /* nutzt die Farbe von .project-arrow */
+  stroke-width: 1.3px;        /* hier die gewünschte Breite */
+  fill: none;               /* entfernen, falls nur Stroke gewünscht */
 }
 
 /* circles container that holds all circular text elements */
